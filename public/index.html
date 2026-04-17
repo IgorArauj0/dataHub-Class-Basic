@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>DataHub Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📊 DataHub Dashboard</h1>
+
+<div class="container">
+    
+    <div class="form-box">
+        <h2>Inserir Dados</h2>
+        <input type="text" id="source" placeholder="Fonte (ex: app_mobile)">
+        <textarea id="payload" placeholder='Payload JSON'></textarea>
+        <button onclick="sendData()">Enviar</button>
+    </div>
+
+    <div class="data-box">
+        <h2>Dados Recebidos</h2>
+        <button onclick="loadData()">Atualizar</button>
+        <ul id="dataList"></ul>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
