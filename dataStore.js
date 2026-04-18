@@ -1,3 +1,5 @@
+//Esse arquivo é o coração do DataHub. Ele guarda os dados, permite adicionar novos e também buscar informações, seja tudo ou filtrado por origem
+
 // Simula um "hub" central de dados (armazenamento em memória)
 const data = [];
 

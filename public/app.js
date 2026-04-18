@@ -34,5 +34,10 @@ async function loadData() {
     });
 }
 
+async function importUsers() {
+    await fetch('/import/users');
+    loadData();
+}
+
 // carregar ao abrir
 loadData();

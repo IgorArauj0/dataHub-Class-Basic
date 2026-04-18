@@ -1,3 +1,5 @@
+//Esse arquivo é o ponto inicial do sistema. Ele sobe o servidor, conecta as rotas (API) e também libera o acesso ao dashboard web.
+
 // Importa o framework Express (responsável por criar o servidor)
 const express = require('express');
 
